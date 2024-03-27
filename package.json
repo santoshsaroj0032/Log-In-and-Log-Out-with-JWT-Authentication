@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Santosh Saroj",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.4"
+  }
+}
